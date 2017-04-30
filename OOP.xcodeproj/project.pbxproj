@@ -13,6 +13,8 @@
 		527F8EF11EB666E700EE6569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527F8EEF1EB666E700EE6569 /* Main.storyboard */; };
 		527F8EF31EB666E700EE6569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527F8EF21EB666E700EE6569 /* Assets.xcassets */; };
 		527F8EF61EB666E700EE6569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527F8EF41EB666E700EE6569 /* LaunchScreen.storyboard */; };
+		527F8EFF1EB6674400EE6569 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 527F8EFE1EB6674400EE6569 /* Vehicle.m */; };
+		527F8F021EB667A300EE6569 /* Civic.m in Sources */ = {isa = PBXBuildFile; fileRef = 527F8F011EB667A300EE6569 /* Civic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		527F8EF21EB666E700EE6569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		527F8EF51EB666E700EE6569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		527F8EF71EB666E700EE6569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527F8EFD1EB6674400EE6569 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		527F8EFE1EB6674400EE6569 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		527F8F001EB667A300EE6569 /* Civic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Civic.h; sourceTree = "<group>"; };
+		527F8F011EB667A300EE6569 /* Civic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Civic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				527F8EF41EB666E700EE6569 /* LaunchScreen.storyboard */,
 				527F8EF71EB666E700EE6569 /* Info.plist */,
 				527F8EE61EB666E700EE6569 /* Supporting Files */,
+				527F8EFD1EB6674400EE6569 /* Vehicle.h */,
+				527F8EFE1EB6674400EE6569 /* Vehicle.m */,
+				527F8F001EB667A300EE6569 /* Civic.h */,
+				527F8F011EB667A300EE6569 /* Civic.m */,
 			);
 			path = OOP;
 			sourceTree = "<group>";
@@ -151,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527F8EFF1EB6674400EE6569 /* Vehicle.m in Sources */,
 				527F8EEE1EB666E700EE6569 /* ViewController.m in Sources */,
+				527F8F021EB667A300EE6569 /* Civic.m in Sources */,
 				527F8EEB1EB666E700EE6569 /* AppDelegate.m in Sources */,
 				527F8EE81EB666E700EE6569 /* main.m in Sources */,
 			);

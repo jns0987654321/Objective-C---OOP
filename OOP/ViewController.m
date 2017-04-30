@@ -7,16 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "Civic.h"
 
+// category like an extension
 @interface ViewController ()
-
+//private properties in here
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Civic *civic = [[Civic alloc]init];
+    // Print order will be subclass then parent
+    
 }
 
 
